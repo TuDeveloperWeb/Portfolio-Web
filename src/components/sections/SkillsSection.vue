@@ -199,9 +199,7 @@ const skills = [
   }
 
   &__card {
-    // background-color: #1e1b2e;
     background-color: #140B1B;
-    // border: 2px solid #7c3aed; // púrpura
     border: 2px solid #3f266b; // púrpura
     border-radius: 12px;
     width: 150px;
