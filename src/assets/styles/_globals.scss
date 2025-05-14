@@ -1,0 +1,45 @@
+
+// 1) Reset CSS
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// 2) Variables CSS
+:root {
+  --primary-color: #17192a;
+  --secondary-color: #ffc632;
+  --text-color: #fff;
+  --bg-color: #201D31;
+}
+
+// 3) Variables SCSS
+$section-title-size: 2rem;
+$section-title-color: #fff;
+$section-title-margin: 1.5rem 0;
+
+// 4) Mixin para títulos de sección
+@mixin section-title {
+  text-align: center;
+  font-size: $section-title-size;
+  color: var(--text-color);
+  margin: 0 auto;
+  margin: 40px 0 60px 0;
+}
+
+// 5) Mixin para botones
+@mixin btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+}
