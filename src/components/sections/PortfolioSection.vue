@@ -1,43 +1,45 @@
 <script setup lang="ts">
 import { mdiEye, mdiGithub } from '@mdi/js'
 import { ref } from 'vue';
-
+import project1 from '@/assets/images/project1.png';
+import project2 from '@/assets/images/project2.png';
+import project3 from '@/assets/images/project3.png';
 
 const portfolioItems = ref([
     {
         title: 'Sistema de Gestión de Ventas',
         description: 'Descripción del proyecto 1',
-        image: 'src/assets/images/project1.png',
+        image: project1,
         link: '#',
     },
     {
         title: 'Proyecto 2',
         description: 'Descripción del proyecto 2',
-        image: '/src/assets/images/project2.png',
+        image: project2,
         link: '#',
     },
     {
         title: 'Proyecto 3',
         description: 'Descripción del proyecto 3',
-        image: '/src/assets/images/project3.png',
+        image: project3,
         link: '#',
     },
     {
         title: 'Proyecto 1',
         description: 'Descripción del proyecto 1',
-        image: 'src/assets/images/project1.png',
+        image: project1,
         link: '#',
     },
     {
         title: 'Proyecto 2',
         description: 'Descripción del proyecto 2',
-        image: '/src/assets/images/project2.png',
+        image: project2,
         link: '#',
     },
     {
         title: 'Proyecto 3',
         description: 'Descripción del proyecto 3',
-        image: '/src/assets/images/project3.png',
+        image: project3,
         link: '#',
     },
 ]);
